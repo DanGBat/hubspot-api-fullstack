@@ -1,0 +1,60 @@
+/* .App {
+  width: 80%;
+  margin: auto;
+} */
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  color: rgb(78, 78, 78);
+}
+
+.registerUserDiv, .registerCompanyDiv, .createDealDiv, .associateUserDiv {
+  background-color: rgb(220, 220, 220);
+  width: 60%;
+  margin: auto;
+  padding: 3% 5%;
+}
+
+label {
+  text-transform: uppercase;
+  color: rgb(105, 105, 105);
+}
+ 
+input {
+  font-size: 14pt;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 4px 0px 14px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+ }
+
+.button {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(78, 78, 78);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px rgb(40, 40, 40);
+}
+
+.button:hover {
+  background-color: rgb(118, 118, 118)
+}
+
+.button:active {
+  background-color: rgb(66, 66, 66);
+  box-shadow: none;
+  transform:translate(3px, 3px)
+  /* transform: translateX(3px); */
+}
